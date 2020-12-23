@@ -62,7 +62,7 @@ int main(void)
 
 
 	// finding loops and multiple edges
-	if (vert > (0.5(vert - 1) * (vert - 2)))
+	if (vert > (0.5*(vert - 1) * (vert - 2)))
 		printf("The graph is connected");
 	else
 		printf("The graph is not connected");
